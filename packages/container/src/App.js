@@ -10,6 +10,7 @@ const generateClassName = createGenerateClassName({ productionPrefix: 'co' });
 
 const App = () => {
   const [isSignIn, setIsSignedIn] = useState(false);
+  //tamo junto
   return (
     <BrowserRouter>
       <StylesProvider generateClassName={generateClassName}>
